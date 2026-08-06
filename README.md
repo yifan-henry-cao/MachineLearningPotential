@@ -12,6 +12,7 @@ The atom type mapping for the potential and training dataset are: {0: 'Cr', 1: '
   - `EAM_structures.tar.gz` — structures from an EAM potential
   - `MLIP_no_Chem_Samp_structures.tar.gz` — structures from the MLIP without chemical sampling
   - `MLIP_Chem_Samp_structures.tar.gz` — structures from the MLIP with chemical sampling
+  - `MC_4000_atoms_relaxed/MLIP_Chem_Samp_{*}K_4Kat_relaxed.tar.gz` — relaxed final Monte Carlo snapshots (4000 atoms each) using the MLIP with chemical sampling, one tarball per temperature from 300K to 1900K in 100K intervals, each tarball containing 216 independent snapshots (e.g. `MLIP_Chem_Samp_300K_4Kat_relaxed.tar.gz`)
 
 ## References & Citing
 If you use this repository in your work, please cite:
